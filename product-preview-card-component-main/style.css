@@ -1,0 +1,59 @@
+:root{
+    --verdeoscuro: #3c8067;
+    --crema: #f2ebe3;
+    --azulnoche: 	#1c232b;
+    --blanco: #fff;
+    --plomoclaro:	#6c7289;
+}
+
+body{
+    background-color: var(--crema);
+    margin: 200px 450px;
+    color: var(--azulnoche);
+}
+
+img{
+    height: 110%;
+    width: 50%;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.cuerpo{
+    border-radius: 15px;
+    background-color: var(--blanco);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.texto{
+    margin: 25px;
+    width: 50%;
+}
+
+#perfume,
+#precio span,
+button{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: var(--plomoclaro);
+}
+
+#nombre,
+#precio{
+    font-family: 'Fraunces', serif;
+}
+
+button{
+    border-radius: 5px;
+    width: 100%;
+    height:40px;
+    color: var(--blanco);
+    background-color: var(--verdeoscuro);
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 15px;
+    border: none;
+}
